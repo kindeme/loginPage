@@ -12,7 +12,7 @@ const FormLogin = (props) => {
 		if (!userName || !password) {
 			history.push("/fail");
 		} else {
-			history.push("/sucess");
+			history.push("/success");
 		}
 	};
 
